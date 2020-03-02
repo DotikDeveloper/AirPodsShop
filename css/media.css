@@ -1,0 +1,178 @@
+/* Media */
+
+@media screen and (max-width: 1023px) {
+    .wrapper {
+        width: inherit;
+    }
+    /* header m */
+    div.collapse.navbar-collapse {
+        font-size: 12px;
+    }
+    ul.navbar-nav.mr-auto li a:hover {
+        color: #67c0b6;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    i.fab.fa-apple {
+        color: #67c0b6;
+        font-size: 1.5em;
+    }
+    span.navbar-toggler-icon:hover {
+        color: #67c0b6;
+        font-weight: bold;
+    }
+    /* 1 page m*/
+    .intro {
+        display: block;
+        max-width: 100%;
+    }
+    .intro-img {
+        background-position: -870px 10px;
+        background-repeat: no-repeat;
+    }
+    span.newPrice,
+    i.fas.fa-ruble-sign {
+        font-size: 1.1em;
+        color: rgb(11, 136, 234);
+    }
+    p.intro_text_name {
+        position: absolute;
+        font-size: 35px;
+        padding-top: 100px;
+        margin: 0;
+    }
+    div.mb-auto.p-2.bd-highlight {
+        margin-bottom: 0px;
+    }
+    #timerfd8ef19b62ad95052bb81e3b03c17e7c {
+        margin: auto;
+        min-width: 278px;
+        height: 65px;
+        text-align: center;
+    }
+    /* page 2 m*/
+    section.stats.wraper {
+        max-width: 90%;
+        padding-left: 0px;
+    }
+    table.table.table-borderless tbody tr td {
+        font-size: 20px;
+        padding-top: 20px;
+        line-height: 17px;
+        padding-left: 5px;
+        max-width: 90%;
+    }
+    /* 3 page m*/
+    div.medium_img {
+        background-position: top 0px right 0px;
+        max-width: 100%;
+    }
+    /* div.medium_img {
+        background-image: url(../img/service/bg-girl.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 0px right 500px;
+        position: absolute;
+}*/
+    table.table_medium tbody {
+        padding-right: 0px;
+        padding-left: 0px;
+        border-collapse: separate;
+    }
+    table.table_medium.table.table-borderless {
+        font-size: 20px;
+        line-height: 17px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    /* 5 Page */
+    section.contrast.wrapper,
+    div.d-flex {
+        flex-direction: column;
+    }
+    table.original {
+        margin: auto;
+    }
+    /* 6 Page */
+    div.block_text_guaranty {
+        max-width: 100%;
+        margin: 20px;
+    }
+    /* footer m*/
+    footer {
+        background-color: rgb(51, 49, 49);
+        height: 130px;
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+        display: inline-block;
+        font-size: 1em;
+    }
+    footer div.justify-content-center.text-center button.btn_gift {
+        width: 350px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1786px) {
+    /* header m */
+    div.collapse.navbar-collapse {
+        font-size: 16px;
+    }
+    ul.navbar-nav.mr-auto li a:hover {
+        color: #67c0b6;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    i.fab.fa-apple {
+        color: #67c0b6;
+        font-size: 1.5em;
+    }
+    span.navbar-toggler-icon:hover {
+        color: #67c0b6;
+        font-weight: bold;
+    }
+    /* 1 page m*/
+    .intro {
+        max-width: 100%;
+    }
+    div.p-2 {
+        margin-left: 50px;
+    }
+    span.newPrice,
+    i.fas.fa-ruble-sign {
+        font-size: 1.1em;
+        color: rgb(11, 136, 234);
+    }
+    p.intro_text_name {
+        position: absolute;
+        font-size: 35px;
+        padding-top: 220px;
+        margin: 0;
+    }
+    div.mb-auto.p-2.bd-highlight {
+        margin-bottom: 0px;
+    }
+    #timerfd8ef19b62ad95052bb81e3b03c17e7c {
+        margin: auto;
+        min-width: 278px;
+        height: 82px;
+        text-align: center;
+    }
+    table.table.table-borderless tbody tr td {
+        font-size: 18px;
+        padding-top: 20px;
+        line-height: 17px;
+        max-width: 90%;
+    }
+    /*2 page*/
+    section.stats.wraper {
+        max-width: 90%;
+        padding-left: 0px;
+    }
+    /* 5 Page */
+    /* footer m*/
+    #footer {
+        background-color: rgb(49, 49, 49);
+    }
+}
